@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+   <link rel="stylesheet" type="text/css" href="./styles/jquery-ui.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <div class="overlay"></div>
+<div class="container">
+    <div class="banner">
+        <div class="wrapper">
+            <div class="header">
+               <a href="#"><img src="./images/home-logo.png"></a>
+               <ul>
+                   <li>Welcome</li>
+                   <li>Help</li>
+               </ul>
+            </div>
+            <div class="button-wrapper">
+                <p>We bring people together.</p>
+                <p>Love unites them...</p>
+                <button class="primary-button" id="view-profile">View Profile</button>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper quicklink">
+     <h2>Find your Special Someone </h2>
+     <div class="action-wrapper">
+         <span class="signup"></span>
+         <div>
+           <h3>Sign up</h3>
+           <p>Register for free & put up your Profile</p>
+         </div>
+     </div>
+      <div class="action-wrapper">
+         <span class="connect"></span>
+         <div>
+           <h3>Connect</h3>
+           <p>Select & Connect with Matches you like</p>
+         </div>
+     </div>
+      <div class="action-wrapper">
+         <span class="interact"></span>
+         <div>
+           <h3>Interact</h3>
+           <p>Become a Premium Member & Start a Conversation </p>
+         </div>
+     </div>
+    </div>
+   
+    <div class="footer">
+        <div class="wrapper">
+            <p>&copy; 1996-2017 Shaadi.com, The World's No.1 Matchmaking service &trade;</p>
+            <p>Passionately created by <a href="#">People Group</a></p>
+        </div>
+    </div>
+    </div>
+    <div class="profile-wrap hide">
+        <h2 class="profile-heading">My Profile</h2>
+    <div class="profile-container">
+        <div class="profile-status-wrap">
+            <div class="profile-pic">
+               <img class="profile-pic-img" src="./images/photo.png"/>
+           </div>
+            <div class="user-details">
+            <span class="user-name">Shipra Bhalla</span>
+            <span class="user-id">(SH80915614)</span>
+            </div>
+            <div class="user-status">
+            <span for="online-status">Last online : </span>
+            <span class="online-status">Today</span>
+            </div>
+        </div>
+        <div class="profile-info-wrap">
+            <h4>Basic Info</h4>
+            <ul class="profile-detail">
+                <li>
+                    <label>Posted by</label>
+                    <span>&#58;</span>
+                    <span>Self</span>
+                </li>
+                <li>
+                    <label>Age</label>
+                    <span>&#58;</span>
+                    <span>29</span>
+                </li>
+                <li>
+                    <label>Marital Status</label>
+                    <span>&#58;</span>
+                    <span>Never Married</span>
+                </li>
+                <li>
+                    <label>Height</label>
+                    <span>&#58;</span>
+                    <span>5'7"(170cm)</span>
+                </li>
+                <li>
+                    <label>Body Type</label>
+                    <span>&#58;</span>
+                    <span>Not Specified</span>
+                </li>
+                <li>
+                    <label>Skin Tone</label>
+                    <span>&#58;</span>
+                    <span>Not Specified</span>
+                </li>
+                <li>
+                    <label>Any disability?</label>
+                    <span>&#58;</span>
+                    <span>None</span>
+                </li>
+                <li>
+                    <label>Body Weight</label>
+                    <span>&#58;</span>
+                    <span>Not Specified</span>
+                </li>
+                <li>
+                    <label>Health Information</label>
+                    <span>&#58;</span>
+                    <span>Not Specified</span>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-wrap">
+            <button class="primary-button" id="validate" type="submit">Validate</button>
+        </div>
+    </div>
+    </div>
+ <div class="modal hide" title="Fields to Validate">
+        <label><input type="checkbox">Company</label>
+        <label><input type="checkbox">Salary</label>
+        <label><input type="checkbox">Loan details</label>
+        <button class="primary-button" id="checker">Validate</button>  
+        
+      
+    </div>
+    <div class="result hide">
+         <table class="table">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Shaadi.com</th>
+                <th scope="col">Experian</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Age</td>
+                <td>30</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td>Rs 10,000</td>
+                <td>Rs 10,000</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>9/201, anna nagar, chennai</td>
+                <td>9/201, anna nagar, chennai</td>
+            </tr>
+            <tr>
+                <td>Loans If any</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+        </table>
+        <button class="primary-button" id="successBtn">Validate</button>  
+    </div>
+    <img src="./images/loading.gif" class="loader hide">
+<script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+ <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
